@@ -1,0 +1,161 @@
+
+
+@import "https://fonts.googleapis.com/css?family=Duru+Sans|Gilda+Display|Noto+Sans+JP:400,500,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+
+:root {
+    --color-rocket: rgb(113, 89, 193);
+    --color-background: rgb(11, 10, 13);
+    --color-MenuCards: rgb(11, 10, 13);
+}
+
+/* GERAL CSS */
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: 'Roboto', regular;
+    text-decoration: none;
+}
+
+/* HEADER CSS */
+
+
+header {
+    background: rgb(113, 89, 193);
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #nameLogo {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 28px;
+    margin-right: 550px;
+}
+
+header div a {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+header img {
+    margin-left: 30px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header div a:hover {
+    font-weight: bold;
+    transition: 90ms;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* INFO CSS */
+
+.info {
+    width: 940px;
+    height: 400px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 365px;
+    padding: 30px 0px;
+
+}
+
+.info .infoText h3 {
+    color: rgb(75, 75, 75);
+    font-size: 25px;
+    line-height: 30px;
+    width: 400px;
+    height: 140px;
+    padding-top: 40px;
+}
+
+.info .infoText ul {
+    color: rgb(88, 81, 109);
+    margin-left: 35px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.info .infoImage {
+    margin: 0px auto;
+    padding-top: 15px;
+}
+
+.info .infoImage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid  var(--color-rocket);
+    align-self: center;
+}
+
+.info .infoImage h1 {
+    color: #ffffff;
+    padding: 15px;
+    margin: 50px auto;
+    font-size: 35px;
+    line-height: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background:  var(--color-rocket);
+    border-radius: 15px;
+}
+
+.linksFooter {
+    text-align: center;
+    color: rgb(88, 81, 109);
+    margin-left: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 75px;
+}
+
+.linksFooter a {
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.linksFooter a:hover {
+    color: white;
+    background:  var(--color-rocket);
+    
+}
+
+/* CARDS */
+
+.cards {
+    max-width: 1250px;
+    height: 680px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 650px;
+    background: rgb(113, 89, 193);
+    background: rgb(21, 20, 26);
+}
+
+
+
+
+
+
+
+
+
+
