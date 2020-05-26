@@ -17,7 +17,6 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
 
 ### Menu do site
 
-
 - [x] Desafio 2-1
 
   - Add Favicon
@@ -32,7 +31,10 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
   - Uma breve descrição da empresa
   - Uma lista com as principais tecnologias utilizadas.
   - Links para as redes sociais da empresa (Github, Instagram e Facebook)
-  
+
+### Página Portfólio
+
+
 ## Contato
 
 Manfrinne Ferreira – [@Manfrinne_R00t](https://twitter.com/Manfrinne_R00t) – m4nfrinne@gmail.com - [https://github.com/Manfrinne](https://github.com/Manfrinne)

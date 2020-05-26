@@ -30,6 +30,10 @@ header {
     align-items: center;
 }
 
+#contentColor {
+    background: rgb(21, 20, 26);
+}
+
 header #nameLogo {
     color: #ffffff;
     font-size: 22px;
@@ -42,7 +46,7 @@ header div a {
     font-size: 18px;
     line-height: 28px;
     margin-left: 0px;
-    margin-right: 50px;
+    margin-right: 48px;
 }
 
 header img {
@@ -146,8 +150,185 @@ header div a:hover {
 .card {
     width: 400px;
     height: 650px;
-    background: rgb(113, 89, 193);
     background: rgb(21, 20, 26);
+    cursor: pointer;
+    color: white;
+}
+
+.modulosCard {
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* CARD-01 */
+
+#numberCard-01 {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin: 60px auto;
+    align-items: center;
+    justify-content: center;
+    color: rgb(113, 89, 193);
+    font-weight: bold;
+    border: 2px solid rgb(113, 89, 193);
+    border-radius: 50px;
+}
+
+#imageCard-01 {
+    width: 135px;
+    height: 145px;
+    margin: 100px auto 50px auto;
+}
+
+.textCard-01 {
+    max-width: 270px;
+    text-align: center;
+    color: rgb(135, 134, 139);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px auto;
+}
+
+.textCard-01 p strong {
+    color: rgb(113, 89, 193);
+}
+
+#card-01:hover {
+    transform: translateY(-7px);
+    border: 3px solid rgb(113, 89, 193);
+}
+
+.mod01 {
+    border-bottom: 2px solid rgb(113, 89, 193);
+    padding: 3px;
+    width: 80px;
+}
+
+.cardPrice-01 {
+    width: 100px;
+    background-color: rgb(113, 89, 193);
+    padding: 5px 20px;
+    margin: 0px auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* CARD-02 */
+
+#numberCard-02 {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin: 60px auto;
+    align-items: center;
+    justify-content: center;
+    color: rgb(253, 149, 31);
+    font-weight: bold;
+    border: 2px solid rgb(253, 149, 31);
+    border-radius: 50px;
+}
+
+#imageCard-02 {
+    width: 135px;
+    height: 145px;
+    margin: 100px 183px 50px auto
+}
+
+.textCard-02 {
+    max-width: 270px;
+    text-align: center;
+    color: rgb(135, 134, 139);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px auto;
+}
+
+.textCard-02 p strong {
+    color: rgb(253, 149, 31);
+}
+
+#card-02:hover {
+    transform: translateY(-7px);
+    border: 3px solid rgb(253, 149, 31);
+}
+
+.mod02 {
+    border-bottom: 2px solid rgb(253, 149, 31);
+    padding: 3px;
+    width: 80px;
+}
+
+.cardPrice-02 {
+    width: 100px;
+    background-color: rgb(253, 149, 31);
+    padding: 5px 20px;
+    margin: 0px auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* CARD-03 */
+
+#numberCard-03 {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin: 60px auto;
+    align-items: center;
+    justify-content: center;
+    color: rgb(4, 211, 97);
+    font-weight: bold;
+    border: 2px solid rgb(4, 211, 97);
+    border-radius: 50px;
+}
+
+#imageCard-03 {
+    width: 135px;
+    height: 145px;
+    margin: 100px 146px 50px auto
+}
+
+.textCard-03 {
+    max-width: 270px;
+    text-align: center;
+    color: rgb(135, 134, 139);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px auto;
+}
+
+.textCard-03 p strong {
+    color: rgb(4, 211, 97);
+}
+
+#card-03:hover {
+    transform: translateY(-7px);
+    border: 3px solid rgb(4, 211, 97);
+}
+
+.mod03 {
+    border-bottom: 2px solid rgb(4, 211, 97);
+    padding: 3px;
+    width: 80px;
+}
+
+.cardPrice-03 {
+    width: 100px;
+    background-color: rgb(4, 211, 97);
+    padding: 5px 20px;
+    margin: 0px auto;
+    border-radius: 6px;
+    text-align: center;
 }
 
 
