@@ -1,15 +1,5 @@
 
-<h1 align="center">
-  <img alt="Manfrinne-Readme" src="https://avatars3.githubusercontent.com/u/58799400?s=460&u=f999f953097ba809f7da805ffda078037205fc95&v=4" width="150px" />
-</h1>
-
-<h2 align="center">
-
- Bootcamp Rocketseat
-
-</h2>
-
-> Bootcamp - Primeiro projeto de desenvolvimento Web
+# Projeto Bootcamp Rocketseat
 
 Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um Web site.
 
@@ -24,6 +14,7 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
 
 ### Página sobre
 
+- [x] Desafio 2-2
   - A partir do arquivo do desafio 2-1, adicionar um novo link no header chamado Sobre. Essa página deverá mostrar informações referentes a Rocketseat.
   - Informações da página
   - Uma imagem da logo da empresa
@@ -34,7 +25,22 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
 
 ### Página Portfólio
 
+- [ ] Desafio 2-3
 
+- Informações da página:
+  - Título da página;
+  - Grid com 3 colunas e 1 linha onde serão apresentados os cards dos curso;
+
+- Informações do card:
+  - Logo do curso (Starter, Launchbase e GoStack);
+  - Título do curso;
+  - Quantidade de módulos dos cursos;
+  - Informação se o curso é gratuito ou pago;
+
+- Modal:
+  - um iframe que busca a página do curso;
+  - Além do botão de fechar o modal, é preciso implementar a funcionalidade de maximizar;
+  
 ## Contato
 
 Manfrinne Ferreira – [@Manfrinne_R00t](https://twitter.com/Manfrinne_R00t) – m4nfrinne@gmail.com - [https://github.com/Manfrinne](https://github.com/Manfrinne)

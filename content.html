@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Iniciando no Front-end</title>
     <style>
         body {
@@ -11,7 +12,7 @@
     </style>
 </head>
 <body>
-    <header id="contentColor">
+    <header class="menuContentPage" id="contentColor">
         
         <img src="https://rocketseat.com.br/static/images/logo-rocketseat.svg" alt="logo empresa">
         <h3 id="nameLogo">Rocketseat</h3>
@@ -26,7 +27,7 @@
     </header>
 
     <div class="cards">
-        <div id="card-01" class="card">
+        <div id="card-01" curseName="starter" class="card">
             <div id="numberCard-01" >01</div>
             <div id="imageCard-01">
                 <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="">
@@ -40,8 +41,8 @@
             </div>
 
         </div>
-        <div id="card-02" class="card">
-            <div id="numberCard-02" >01</div>
+        <div id="card-02" curseName="launchbase" class="card">
+            <div id="numberCard-02" >02</div>
             <div id="imageCard-02">
                 <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="">
             </div>
@@ -49,12 +50,12 @@
                 <p><strong>Torne-se um programador desejado</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
             </div>
             <div class="modulosCard">
-                <p class="mod02">5 Módulos</p>
+                <p class="mod02">10 Módulos</p>
                 <p class="cardPrice-02">Free</p>
             </div>    
         </div>
-        <div id="card-03" class="card">
-            <div id="numberCard-03" >01</div>
+        <div id="card-03" curseName="gostack" class="card">
+            <div id="numberCard-03" >03</div>
             <div id="imageCard-03">
                 <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="">
             </div>
@@ -62,11 +63,28 @@
                 <p><strong>Torne-se um programador desejado</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
             </div>
             <div class="modulosCard">
-                <p class="mod03">5 Módulos</p>
+                <p class="mod03">15 Módulos</p>
                 <p class="cardPrice-03">Free</p>
-            </div3> 
+            </div> 
         </div>
 
     </div>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="close-modal">
+                <span class="material-icons">close</span>
+            </div>
+            <div class="max-modal">
+                <span class="material-icons">maximize</span>
+            </div>
+            <div class="modal-content">
+                <iframe src=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
