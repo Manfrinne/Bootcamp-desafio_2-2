@@ -25,7 +25,7 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
 
 ### Página Portfólio
 
-- [ ] Desafio 2-3
+- [x] Desafio 2-3
 
 - Informações da página:
   - Título da página;

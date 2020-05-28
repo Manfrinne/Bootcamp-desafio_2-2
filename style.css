@@ -137,12 +137,21 @@ header div a:hover {
     
 }
 
+.pageTheme {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
 /* CARDS */
 
 .cards {
     max-width: 1250px;
     height: 680px;
-    margin: 60px auto;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
