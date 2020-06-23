@@ -120,7 +120,6 @@ header div a:hover {
 
 .linksFooter {
     text-align: center;
-    color: rgb(88, 81, 109);
     margin-left: 35px;
     font-size: 20px;
     line-height: 30px;
@@ -129,6 +128,7 @@ header div a:hover {
 }
 
 .linksFooter a {
+    color: rgb(88, 81, 109);
     margin-right: 30px;
     padding: 10px;
 }

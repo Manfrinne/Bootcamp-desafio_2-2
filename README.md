@@ -1,7 +1,10 @@
+# Projeto Bootcamp Rocketseat - Desafios
 
-# Projeto Bootcamp Rocketseat
+> Esse é um projeto de desenvolvimento Web, vamos implementar o Frontend de um Web site.
 
-Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um Web site.
+Nessa desafio o objetivo é desenvolver uma auternativa ao site de apresentação para a Rocketseat
+
+![](public/showProject.gif)
 
 ## Iniciando no Front-end
 
@@ -23,7 +26,7 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
   - Uma lista com as principais tecnologias utilizadas.
   - Links para as redes sociais da empresa (Github, Instagram e Facebook)
 
-### Página Portfólio
+### Página Cursos
 
 - [x] Desafio 2-3
 
@@ -41,6 +44,11 @@ Esse é um projeto de desenvolvimento Web, vamos implementar o frontend de um We
   - um iframe que busca a página do curso;
   - Além do botão de fechar o modal, é preciso implementar a funcionalidade de maximizar;
   
-## Contato
+## Como contribuir:
 
-Manfrinne Ferreira – [@Manfrinne_R00t](https://twitter.com/Manfrinne_R00t) – m4nfrinne@gmail.com - [https://github.com/Manfrinne](https://github.com/Manfrinne)
+-  Faça um fork do projeto;
+-  Crie uma nova branch, exemplo: `git checkout -b my-feature`;
+-  Commit as modificações, exemplo: `git commit -m 'feat: My new feature'`;
+-  Faça um push para a sua branch: `git push origin my-feature`.
+
+Criado por Manfrinne Ferreira [Contato](https://www.linkedin.com/in/manfrinne-ferreira-6033121a7/)
