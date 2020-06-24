@@ -2,7 +2,7 @@
 
 > Esse é um projeto de desenvolvimento Web, vamos implementar o Frontend de um Web site.
 
-Nessa desafio o objetivo é desenvolver uma auternativa ao site de apresentação para a Rocketseat
+Frontend de um Web site que simula uma alternativa ao site da Rocketseat. Trabalhamos com Modal que maximiza e minimiza dentre outros conceitos básicos de desenvolvimento Frontend.
 
 ![](public/showProject.gif)
 
